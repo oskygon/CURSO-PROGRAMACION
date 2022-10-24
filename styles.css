@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+  
+  
+}
+
+#hero container-fluid{
+height: 50vh;
+}
+
+
+
+#hero{
+  padding-top: 40vh;
+  padding-bottom: 30vh;
+  padding-left: 53%;
+  padding-right: 25vh;
+  background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#octubre{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+   
+   }
+#octubre button{
+    align-self: flex-start;
+    
+}
+#boton-borrar{
+    background-color:#97C93E;
+
+
+}
+#boton-enviar{
+    background-color:#97C93E;
+}
+#boton-resumen{
+    background-color:#97C93E;
+   
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+footer{
+    height: 20vh;
+}
+.nav-inf{
+    background: rgb(26,54,68);
+background: linear-gradient(90deg, rgba(26,54,68,1) 0%, rgba(27,65,86,1) 45%, rgba(31,82,113,1) 100%);
+    
+
+}
+/*VENTA DE TICKETS*/
+.cards{
+    padding-top: 15vh;
+  
+  }
+  #result{
+      background-color: #CCE5ff;
+  }
+
+
+#popUp{
+    width: 60vw;
+
+}
+
+
+#botonCerrar{
+    background-color: #97C93E;
+}
+
+
+
+
+
+@media (max-width: 767.98px) { 
+    #hero {
+        
+        font-size: 1em;
+        padding-top: 15vh;
+  padding-bottom: 3vh;
+  padding-left: 5%;
+  padding-right: 2vh;
+ text-align: left;
+
+    
+    }
+    .text-end{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+    #octubre button{
+        align-self:flex-start;
+       
+    }
+    
+#nav-inf{
+    display: flex;
+    flex-direction: column;
+}
+ } 
+

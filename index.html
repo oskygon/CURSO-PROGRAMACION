@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+
+        <div class="container-fluid">
+            <img class="img-flex col-3 col-lg-1 col-xl-1 d-inline-block align-text-end" src="media/codoacodo.png">
+            <a class="navbar-brand text-light col-lg-5 ">Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-warning"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" id="la-conferencia"
+                            href="#la-conferencia">La conferencia</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Conviertete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="/tickets.html">Comprar tickets</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container-fluid">
+            <div class="d-flex h-100 flex-column text-light justify-content-end text-end">
+                <h2 class="">Conf Bs As</h2>
+                <p class="">Bs As llega por primera vez a la Argentina.Un evento para compartir con
+                    nuestra comunidad el conocimiento y experiencia de los expertos que
+                    estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de
+                    codo a codo y los oradores de primer
+                    nivel que tenemos para ti. Te esperamos!!</p>
+
+            </div>
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light col-xl-4 w-auto mt-1 ">Quiero ser orador</button>
+                <a href="/tickets.html">
+                    <button type="button" class="btn btn-success col-xl-4 w-auto mt-1">Comprar tickets</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container-fluid row row-cols-1 row-cols-md-3 mt-5 g-4 row d-flex justify-content-center">
+
+            <div class="card" style="width: 18rem;">
+                <img src="media/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                <div class="card-body">
+                    <a href="#" class="badge bg-warning text-dark">JavaScript</a>
+                    <span class="badge bg-primary">React</span>
+                    <h5 class="card-title">Steve Jobs</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="media/bill.jpg" class="card-img-top" alt="Bill Gates">
+                <div class="card-body">
+                    <a href="#" class="badge bg-warning text-dark">JavaScript</a>
+                    <span class="badge bg-primary">React</span>
+                    <h5 class="card-title">Bill Gates</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="media/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                <div class="card-body">
+                    <a href="#" class="badge bg-secondary">Negocios</a>
+                    <span class="badge bg-danger">Startups</span>
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="vacaciones">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="mt-1 col-lg-6 col-xl-6 col-md-12 col-sm-12">
+                    <img src="media/honolulu.jpg" alt="honolulu" class="border w-100 h-100" id="honolulu">
+
+                </div>
+                <div class=" mt-1 col-lg-6 col-xl-6 col-md-12 col-sm-12 border bg-dark text-light text-start"
+                    id="octubre">
+                    <h1>Bs As - Octubre</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Consectetur aliquid eligendi sapiente sed, exercitationem
+                        fugit id odit voluptas pariatur laudantium molestiae possimus
+                        voluptate repudiandae minus repellat illum, maxime dolore similique
+                        alias. Expedita voluptatem iusto, omnis corporis odio laudantium
+                        exercitationem aspernatur!</p>
+                    <button type="button" class="mb-1 btn btn-outline-light col-xl-4 w-auto">Conocé mas</button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <section class="formulario">
+        <div class="container">
+            <div class="lh-1 text-center">
+                <p>CONVIERTETE EN UN</p>
+                <h1>ORADOR</h1>
+                <p class="text-muted">
+                    Anotate como orador para dar una <a href="#" class="text-reset">charla ignite</a>. Cuentanos de que
+                    quieres hablar!
+                </p>
+
+            </div>
+
+            <div class="row g-2">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre">
+                        <label for="floatingInputGrid">Nombre</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre">
+                        <label for="floatingInputGrid">Apellido</label>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control fs-4" id="exampleFormControlTextarea1"
+                        placeholder="Sobre qué quieres hablar?" rows="5"></textarea>
+                    <p>Recuerda incluir un título para tu charla</p>
+                    <button type="button" class="mb-1 btn btn-success col-12 w-100" id="boton-enviar">Enviar</button>
+                </div>
+
+            </div>
+    </section>
+    <footer>
+        <ul class="nav justify-content-center  bg-dark nav-inf mb-2 p-3" id="nav-inf">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Estudiantes</a>
+            </li>
+        </ul>
+        <div class="container text-center text-dark">
+            <p>Copyright &copy; Oscar Gonzalez 22575 2022</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
